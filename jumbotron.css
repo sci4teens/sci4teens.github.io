@@ -19,7 +19,7 @@ a {
 
 .jumbotron {
   background: rgb(130,198,237);
-  background: linear-gradient(0deg, rgba(245,203,192,0.7235936610972514) 0%, rgba(130,198,237,0.7628093473717612) 100%);
+  background: linear-gradient(0deg, rgba(130,198,237,0.7628093473717612) 0%, rgba(245,203,192,0.7235936610972514) 100%);
   padding-top: 150px;
   padding-bottom: 150px;
 }
@@ -33,7 +33,7 @@ a {
 
 .initiatives {
   background: rgb(130,198,237);
-  background: linear-gradient(0deg, rgba(245,203,192,0.7235936610972514) 0%, rgba(130,198,237,0.7628093473717612) 100%);
+  background: linear-gradient(0deg, rgba(130,198,237,0.7628093473717612) 0%, rgba(245,203,192,0.7235936610972514) 100%);
   padding-top: 50px;
   padding-right: 50px;
   padding-bottom: 50px;
@@ -81,7 +81,7 @@ a {
 /* Three columns side by side */
 .team {
   background: rgb(130,198,237);
-  background: linear-gradient(0deg, rgba(245,203,192,0.7235936610972514) 0%, rgba(130,198,237,0.7628093473717612) 100%);
+  background: linear-gradient(0deg, rgba(130,198,237,0.7628093473717612) 0%, rgba(245,203,192,0.7235936610972514) 100%);
   padding-top: 50px;
   padding-right: 50px;
   padding-bottom: 50px;
