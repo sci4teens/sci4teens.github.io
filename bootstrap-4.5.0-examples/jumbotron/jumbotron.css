@@ -1,0 +1,131 @@
+body {
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-align: right;
+}
+
+.navbar-toggler {
+  background-color: black;
+  text-align: right;
+}
+.navbar-expand-md {
+  background-color: white;
+  color: black;
+  text-align: right;
+}
+
+.jumbotron {
+  background: rgb(130,198,237);
+  background: linear-gradient(0deg, rgba(130,198,237,0.7628093473717612) 0%, rgba(245,203,192,0.7235936610972514) 100%);
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.about {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.initiatives {
+  background: rgb(130,198,237);
+  background: linear-gradient(0deg, rgba(130,198,237,0.7628093473717612) 0%, rgba(245,203,192,0.7235936610972514) 100%);
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.sub {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.partners {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.footer {
+  background: #DCDEDC;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.fa {
+  padding: 50px;
+  font-size: 170px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  color: black;
+}
+
+.mission {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+/* Three columns side by side */
+.team {
+  background: rgb(130,198,237);
+  background: linear-gradient(0deg, rgba(130,198,237,0.7628093473717612) 0%, rgba(245,203,192,0.7235936610972514) 100%);
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 18px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.questions {
+  padding-right: 50px;
+  padding-left: 50px;
+  background: rgb(245,203,192);
+  background: linear-gradient(0deg, rgba(245,203,192,0.7235936610972514) 0%, rgba(130,198,237,0.7628093473717612) 100%);
+}
