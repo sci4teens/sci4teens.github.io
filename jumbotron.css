@@ -19,7 +19,7 @@ a {
 
 .jumbotron {
   background: rgb(130,198,237);
-  background: linear-gradient(0deg, rgba(245,203,192,0.7235936610972514) 0%, rgba(130,198,237,0.7628093473717612) 100%);
+  background: linear-gradient(0deg, rgba(130,198,237,0.7628093473717612) 0%, rgba(245,203,192,0.7235936610972514) 100%);
   padding-top: 150px;
   padding-bottom: 150px;
 }
@@ -33,7 +33,7 @@ a {
 
 .initiatives {
   background: rgb(130,198,237);
-  background: linear-gradient(0deg, rgba(245,203,192,0.7235936610972514) 0%, rgba(130,198,237,0.7628093473717612) 100%);
+  background: linear-gradient(0deg, rgba(130,198,237,0.7628093473717612) 0%, rgba(245,203,192,0.7235936610972514) 100%);
   padding-top: 50px;
   padding-right: 50px;
   padding-bottom: 50px;
@@ -81,7 +81,7 @@ a {
 /* Three columns side by side */
 .team {
   background: rgb(130,198,237);
-  background: linear-gradient(0deg, rgba(245,203,192,0.7235936610972514) 0%, rgba(130,198,237,0.7628093473717612) 100%);
+  background: linear-gradient(0deg, rgba(130,198,237,0.7628093473717612) 0%, rgba(245,203,192,0.7235936610972514) 100%);
   padding-top: 50px;
   padding-right: 50px;
   padding-bottom: 50px;
@@ -94,34 +94,40 @@ a {
   padding: 0 18px;
 }
 
-.cd-faq__items { // on mibile, faq contents slides in from the right
-  position: fixed;
-  height: 100%;
-  width: 90%;
-  top: 0;
-  right: 0;
-  transform: translateZ(0) translateX(100%);
-  transition: transform .3s;
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
 }
 
-.cd-faq__items--slide-in {
-  transform: translateX(0);
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-@include breakpoint(md) {
-  .cd-faq {
-    display: flex;
-  }
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
 
-  .cd-faq__categories {
-    position: sticky; // fix element on scrolling
-    top: 20px;
-    width: 200px;
-  }
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
-  .cd-faq__items {
-    flex-grow: 1;
-  }
+.title {
+  color: grey;
+}
+
+.questions {
+  padding-right: 50px;
+  padding-left: 50px;
+  background: rgb(245,203,192);
+  background: linear-gradient(0deg, rgba(245,203,192,0.7235936610972514) 0%, rgba(130,198,237,0.7628093473717612) 100%);
 }
 
 .first {
@@ -133,7 +139,7 @@ a {
 
 .shops {
   background: rgb(130,198,237);
-  background: linear-gradient(0deg, rgba(245,203,192,0.7235936610972514) 0%, rgba(130,198,237,0.7628093473717612) 100%);
+  background: linear-gradient(0deg, rgba(130,198,237,0.7628093473717612) 0%, rgba(245,203,192,0.7235936610972514) 100%);
   padding-top: 50px;
   padding-right: 50px;
   padding-bottom: 50px;
