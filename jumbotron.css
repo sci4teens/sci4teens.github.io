@@ -101,23 +101,6 @@ a {
   }
 }
 
-.accordion {
-    background-color: #FFFFFF;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-    margin-bottom:10px;
-}
-/* Add some shadows to create a card effect */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
 /* Some left and right padding inside the container */
 .container {
   padding: 0 16px;
