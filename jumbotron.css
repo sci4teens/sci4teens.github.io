@@ -94,42 +94,48 @@ a {
   padding: 0 18px;
 }
 
-/* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
-  .column {
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
     width: 100%;
-    display: block;
-  }
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom:10px;
 }
 
-/* Add some shadows to create a card effect */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+/* Unicode character for "plus" sign (+) */
+.accordion:after {
+    content: '\2795'; 
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
 }
 
-/* Some left and right padding inside the container */
-.container {
-  padding: 0 16px;
+/* Unicode character for "minus" sign (-) */
+.accordion.active:after {
+    content: "\2796"; 
 }
 
-/* Clear floats */
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
+/* Style the element that is used for the panel class */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    opacity: 0;
+    margin-bottom:10px;
 }
 
-.title {
-  color: grey;
+div.panel.show {
+    opacity: 1;
+    max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
 }
-
-.questions {
-  padding-right: 50px;
-  padding-left: 50px;
-  background: rgb(245,203,192);
-  background: linear-gradient(0deg, rgba(245,203,192,0.7235936610972514) 0%, rgba(130,198,237,0.7628093473717612) 100%);
-}
-
 .first {
   padding-top: 50px;
   padding-right: 50px;
