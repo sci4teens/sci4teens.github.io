@@ -94,6 +94,13 @@ a {
   padding: 0 18px;
 }
 
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
 .accordion {
     background-color: #eee;
     color: #444;
@@ -106,43 +113,6 @@ a {
     transition: 0.4s;
     margin-bottom:10px;
 }
-
-/* Unicode character for "plus" sign (+) */
-.accordion:after {
-    content: '\2795'; 
-    font-size: 13px;
-    color: #777;
-    float: right;
-    margin-left: 5px;
-}
-
-/* Unicode character for "minus" sign (-) */
-.accordion.active:after {
-    content: "\2796"; 
-}
-
-/* Style the element that is used for the panel class */
-.panel {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: visible;
-    transition: 0.4s ease-in-out;
-    opacity: 0;
-    margin-bottom:10px;
-}
-
-.panel.show {
-    opacity: 1;
-    max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
-}/* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
 /* Add some shadows to create a card effect */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
