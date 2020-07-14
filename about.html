@@ -234,51 +234,92 @@
   </div>
   </div>
 
- <section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
-  <ul class="cd-faq__categories">
-    <li><a class="cd-faq__category cd-faq__category-selected truncate" href="#basics">Basics</a></li>
-    <li><a class="cd-faq__category truncate" href="#mobile">Mobile</a></li>
-    <li><!-- ... --></li>
-    <!-- ... -->
-  </ul> <!-- cd-faq__categories -->
-
-  <div class="cd-faq__items">
-    <ul id="basics" class="cd-faq__group">
-      <li class="cd-faq__title"><h2>Basics</h2></li>
-      <li class="cd-faq__item">
-        <a class="cd-faq__trigger" href="#0"><span>How do I change my password?</span></a>
-        <div class="cd-faq__content">
-          <div class="text-component">
-            <!-- content here -->
+  <div id="accordion">
+    <div class="questions">
+      <h2>FAQ</h2>
+    <div class="faq">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            DO I NEED TO WORK INDIVIDUALLY?
+          </button>
+        </h5>
+      </div>
+  
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+        <div class="card-body">
+          You may work either individually or in teams, with the maximum team size being three people.
+        </div>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="card-header" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="btn btn-link text-dark collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            WHAT CAN MY PIECE BE ABOUT?
+          </button>
+        </h5>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+        <div class="card-body">
+          Your piece can be a blog-style article about any subtopic that you are passionate about/want to explore within biology, environmental science, physics, mathematics, computer science, and engineering!        </div>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="card-header" id="headingThree">
+        <h5 class="mb-0">
+          <button class="btn btn-link text-dark collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            HOW OFTEN DO WORKSHOPS TAKE PLACE
+          </button>
+        </h5>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+        <div class="card-body">
+          We aim to host around 2 workshops per month. Keep an eye out for the RSVP forms if you'd like to attend, and fill out our workshop interest form if you're interested in hosting one!
+        </div>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="card-header" id="headingFour">
+        <h5 class="mb-0">
+          <button class="btn btn-link text-dark collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            WHAT TOPICS ARE PRESENTED IN WORKSHOPS
+          </button>
+        </h5>
+      </div>
+      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+        <div class="card-body">
+          Workshops will present STEM/Science Communication topics that are beneficial for both the contest and your future!
           </div>
-        </div> <!-- cd-faq__content -->
-      </li>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="card-header" id="headingFive">
+        <h5 class="mb-0">
+          <button class="btn btn-link text-dark collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            I HAVE A QUESTION ABOUT SCIENCE WRITING          </button>
+        </h5>
+      </div>
+      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+        <div class="card-body">
+          Feel free to contact a mentor - the list of mentors is within the mentors page on this website!        </div>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="card-header" id="headingSix">
+        <h5 class="mb-0">
+          <button class="btn btn-link text-dark collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            I HAVE A QUESTION ABOUT THE CONTEST THAT WAS NOT ANSWERED          </button>
+        </h5>
+      </div>
+      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+        <div class="card-body">
+          You can send an email at sci4teens@gmail.com with your question.        </div>
+      </div>
+    </div>
+    </div>
+  </div>
 
-      <li class="cd-faq__item">
-        <a class="cd-faq__trigger" href="#0"><span>How do I sign up?</span></a>
-        <div class="cd-faq__content">
-          <div class="text-component">
-            <!-- content here -->
-          </div>
-        </div> <!-- cd-faq__content -->
-      </li>
-
-      <li class="cd-faq__item"><!-- ... --></li>
-
-      <!-- ... -->
-    </ul> <!-- cd-faq__group -->
-
-    <ul id="mobile" class="cd-faq__group">
-      <!-- ... -->
-    </ul> <!-- cd-faq__group -->
-
-    <!-- ... -->
-  </div> <!-- cd-faq__items -->
-
-  <a href="#0" class="cd-faq__close-panel text-replace">Close</a>
-
-  <div class="cd-faq__overlay" aria-hidden="true"></div>
-</section> <!-- cd-faq -->
 </main>
 
 <footer class="footer">
