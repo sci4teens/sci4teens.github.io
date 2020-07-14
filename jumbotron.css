@@ -94,58 +94,35 @@ a {
   padding: 0 18px;
 }
 
-.faqs {
-  margin: 3%;
-}
-.faqstext {
-  padding: 1%;
-}
-
-.accordion {
-   opacity: .6;
-  border-radius: 7px;
-  background-color: rgba(255, 194, 211, 0.5);
-  color: #8b2455;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 140%;
-  transition: 0.4s;
+.cd-faq__items { // on mibile, faq contents slides in from the right
+  position: fixed;
+  height: 100%;
+  width: 90%;
+  top: 0;
+  right: 0;
+  transform: translateZ(0) translateX(100%);
+  transition: transform .3s;
 }
 
-
-.accordion:hover {
-  background-color: #ffc3d4;
+.cd-faq__items--slide-in {
+  transform: translateX(0);
 }
 
-button:hover{
-  background-color: #ff6bb1;
-}
+@include breakpoint(md) {
+  .cd-faq {
+    display: flex;
+  }
 
-.accordion:after {
-  content: '\002B';
-  color: #8b2455;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
+  .cd-faq__categories {
+    position: sticky; // fix element on scrolling
+    top: 20px;
+    width: 200px;
+  }
 
-.active:after {
-  content: "\2212";
+  .cd-faq__items {
+    flex-grow: 1;
+  }
 }
-
-.panel {
-    margin: 1%;
-  margin-left: 2.5%;
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: 0.2s ease-out;
-}
-
 
 .first {
   padding-top: 50px;
