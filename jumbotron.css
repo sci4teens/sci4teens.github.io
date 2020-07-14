@@ -135,7 +135,42 @@ a {
 .panel.show {
     opacity: 1;
     max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
 }
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.questions {
+  padding-right: 50px;
+  padding-left: 50px;
+  background: rgb(245,203,192);
+  background: linear-gradient(0deg, rgba(245,203,192,0.7235936610972514) 0%, rgba(130,198,237,0.7628093473717612) 100%);
+}
+
 .first {
   padding-top: 50px;
   padding-right: 50px;
