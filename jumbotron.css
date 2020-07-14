@@ -94,41 +94,58 @@ a {
   padding: 0 18px;
 }
 
-/* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
+.faqs {
+  margin: 3%;
+}
+.faqstext {
+  padding: 1%;
 }
 
-/* Add some shadows to create a card effect */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+.accordion {
+   opacity: .6;
+  border-radius: 7px;
+  background-color: rgba(255, 194, 211, 0.5);
+  color: #8b2455;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 140%;
+  transition: 0.4s;
 }
 
-/* Some left and right padding inside the container */
-.container {
-  padding: 0 16px;
+
+.accordion:hover {
+  background-color: #ffc3d4;
 }
 
-/* Clear floats */
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
+button:hover{
+  background-color: #ff6bb1;
 }
 
-.title {
-  color: grey;
+.accordion:after {
+  content: '\002B';
+  color: #8b2455;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
 }
 
-.questions {
-  padding-right: 50px;
-  padding-left: 50px;
-  background: rgb(245,203,192);
-  background: linear-gradient(0deg, rgba(130,198,237,0.7628093473717612) 0%, rgba(245,203,192,0.7235936610972514) 100%);
+.active:after {
+  content: "\2212";
 }
+
+.panel {
+    margin: 1%;
+  margin-left: 2.5%;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.2s ease-out;
+}
+
 
 .first {
   padding-top: 50px;
