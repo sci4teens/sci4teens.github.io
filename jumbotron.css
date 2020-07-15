@@ -31,8 +31,8 @@ a {
 }
 
 .jumbotron {
-  background: rgb(130,198,237);
-  background: linear-gradient(0deg, rgba(245,203,192,0.7235936610972514) 0%, rgba(130,198,237,0.7628093473717612) 100%);
+  background-image: url("image/one.png");
+  background-color: rgba(245,203,192,0.7235936610972514);
   padding-top: 150px;
   padding-bottom: 150px;
 }
