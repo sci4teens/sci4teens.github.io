@@ -14,8 +14,8 @@ a {
   top: 0;
   width: 100%;
   z-index: 9999;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .navbar-expand-md {
@@ -26,8 +26,8 @@ a {
   top: 0;
   width: 100%;
   z-index: 9999;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .jumbotron {
