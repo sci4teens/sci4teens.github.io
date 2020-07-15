@@ -45,8 +45,8 @@ a {
 }
 
 .initiatives {
-  background: rgb(130,198,237);
-  background: linear-gradient(0deg, rgba(245,203,192,0.7235936610972514) 0%, rgba(130,198,237,0.7628093473717612) 100%);
+  background: rgb(245,203,192);
+  background: linear-gradient(0deg, rgba(245,203,192,0.7656104678199405) 0%, rgba(138,179,203,0.720792540649072) 100%);
   padding-top: 50px;
   padding-right: 50px;
   padding-bottom: 50px;
@@ -94,8 +94,8 @@ a {
 
 /* Three columns side by side */
 .team {
-  background: rgb(130,198,237);
-  background: linear-gradient(0deg, rgba(245,203,192,0.7235936610972514) 0%, rgba(130,198,237,0.7628093473717612) 100%);
+  background: rgb(245,203,192);
+  background: linear-gradient(0deg, rgba(245,203,192,0.7656104678199405) 0%, rgba(138,179,203,0.720792540649072) 100%);
   padding-top: 50px;
   padding-right: 50px;
   padding-bottom: 50px;
@@ -146,8 +146,8 @@ a {
 }
 
 .shops {
-  background: rgb(130,198,237);
-  background: linear-gradient(0deg, rgba(245,203,192,0.7235936610972514) 0%, rgba(130,198,237,0.7628093473717612) 100%);
+  background: rgb(245,203,192);
+  background: linear-gradient(0deg, rgba(245,203,192,0.7656104678199405) 0%, rgba(138,179,203,0.720792540649072) 100%);
   padding-top: 50px;
   padding-right: 50px;
   padding-bottom: 50px;
