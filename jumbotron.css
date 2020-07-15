@@ -31,8 +31,8 @@ a {
 }
 
 .jumbotron {
-  background-image: url("image/one.png");
-  background-color: rgba(245,203,192,0.7235936610972514);
+  background-image: url("images/one.png");
+  background-color: rgb(130,198,237);
   padding-top: 150px;
   padding-bottom: 150px;
 }
