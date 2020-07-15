@@ -11,10 +11,17 @@ a {
   background-color: black;
   text-align: right;
 }
+
 .navbar-expand-md {
   background-color: white;
   color: black;
   text-align: right;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .jumbotron {
