@@ -11,6 +11,8 @@ a {
   background-color: black;
   text-align: right;
   position: fixed;
+  top: 0;
+  width = 100%;
 }
 
 .navbar-expand-md {
@@ -18,6 +20,8 @@ a {
   color: black;
   text-align: right;
   position: fixed;
+  top: 0;
+  width: 100%
 }
 
 .jumbotron {
