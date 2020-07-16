@@ -9,6 +9,7 @@ a {
 
 .navbar-toggler {
   background-color: #DCDEDC;
+  color: black;
   text-align: right;
   position: fixed;
   top: 0;
