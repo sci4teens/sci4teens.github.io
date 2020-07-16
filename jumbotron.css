@@ -39,7 +39,13 @@ a {
 }
 
 .btn {
-  border-radius: 30px;  
+  border-radius: 30px;
+  background: none;
+  border: 2px solid white;
+}
+
+.btn2 {
+  border-radius: 30px;
 }
 
 .about {
