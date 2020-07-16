@@ -44,7 +44,11 @@ a {
 
 .join {
   border-radius: 30px;
-  border: 2px solid black;
+  border: 1px solid black;
+}
+
+.join:hover {
+  background-color: #DCDEDC; 
 }
 
 .about {
