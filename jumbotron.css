@@ -40,12 +40,11 @@ a {
 
 .btn {
   border-radius: 30px;
-  background: none;
-  border: 2px solid white;
 }
 
-.btn2 {
+.join {
   border-radius: 30px;
+  border: 2px solid black;
 }
 
 .about {
