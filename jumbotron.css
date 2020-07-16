@@ -38,6 +38,10 @@ a {
   padding-bottom: 150px;
 }
 
+.btn1 {
+  border-radius: 50%;  
+}
+
 .about {
   padding-top: 50px;
   padding-right: 100px;
