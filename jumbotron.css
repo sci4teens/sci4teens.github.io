@@ -7,6 +7,10 @@ a {
   text-align: right;
 }
 
+.navbar-brand {
+  font-size: 20px; 
+}
+
 .navbar-toggler {
   background-color: rgb(220, 222, 220, 0.7);
   color: black;
