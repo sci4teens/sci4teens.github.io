@@ -87,7 +87,8 @@ a {
 }
 
 .footer {
-  background: #DCDEDC;
+  background-image: url("images/one.png");
+  background-color: #DCDEDC;
   padding-top: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
