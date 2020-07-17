@@ -56,9 +56,9 @@ a {
 }
 
 .about {
-  padding-top: 200px;
+  padding-top: 100px;
   padding-right: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   padding-left: 200px;
 }
 
@@ -184,9 +184,34 @@ a {
 .contest{
   background: rgb(245,203,192);
   background: linear-gradient(0deg, rgba(245,203,192,0.7656104678199405) 0%, rgba(138,179,203,0.720792540649072) 100%);  padding-top: 200px;
-  padding-top: 200px;
+}
+
+.competition-rules{
   padding-right: 150px;
-  padding-bottom:175px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+  text-align: left;
+}
+.eligibility{
+  padding-top: 50px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+  text-align: left;
+}
+
+.awards{
+  padding-top: 50px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+  text-align: left;
+}
+
+.submit{
+  padding-top: 50px;
+  padding-right: 150px;
+  padding-bottom: 50px;
   padding-left: 150px;
   text-align: left;
 }
