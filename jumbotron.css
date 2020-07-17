@@ -38,8 +38,8 @@ a {
 .jumbotron {
   background-image: url("images/two.png");
   background-color: rgb(130,198,237);
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .btn {
@@ -56,18 +56,18 @@ a {
 }
 
 .about {
-  padding-top: 50px;
-  padding-right: 100px;
-  padding-bottom: 50px;
-  padding-left: 100px;
+  padding-top: 200px;
+  padding-right: 200px;
+  padding-bottom: 200px;
+  padding-left: 200px;
 }
 
 .initiatives {
   background: rgb(245,203,192);
   background: linear-gradient(0deg, rgba(245,203,192,0.7656104678199405) 0%, rgba(138,179,203,0.720792540649072) 100%);
-  padding-top: 50px;
+  padding-top: 100px;
   padding-right: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   padding-left: 50px;
 }
 
@@ -105,10 +105,10 @@ a {
 }
 
 .mission {
-  padding-top: 50px;
-  padding-right: 80px;
-  padding-bottom: 50px;
-  padding-left: 80px;
+  padding-top: 200px;
+  padding-right: 200px;
+  padding-bottom: 200px;
+  padding-left: 200px;
 }
 
 /* Three columns side by side */
@@ -179,4 +179,14 @@ a {
   padding-right: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
+}
+
+.contest{
+  background: rgb(245,203,192);
+  background: linear-gradient(0deg, rgba(245,203,192,0.7656104678199405) 0%, rgba(138,179,203,0.720792540649072) 100%);  padding-top: 200px;
+  padding-top: 200px;
+  padding-right: 150px;
+  padding-bottom:175px;
+  padding-left: 150px;
+  text-align: left;
 }
