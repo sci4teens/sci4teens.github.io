@@ -75,15 +75,15 @@ a {
   padding-left: 50px;
 }
 
-footer{
+footer {
   background: rgba(138,179,203,0.720792540649072);  
   position: bottom;
 }
 
-.footer-image{
+.footer-image {
   width: 200px;
   length: 200px;
-  margin-right:610px;
+  margin-right:550px;
   margin-top: 20px;
   float: right;
 
