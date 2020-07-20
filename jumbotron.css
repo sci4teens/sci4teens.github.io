@@ -76,10 +76,7 @@ a {
 }
 
 footer{
-  background: rgba(138,179,203,0.720792540649072);
-  position:bottom;
-  padding-bottom: 30px;
-  
+  background: rgba(138,179,203,0.720792540649072);  
 }
 .footer-image{
   width: 200px;
