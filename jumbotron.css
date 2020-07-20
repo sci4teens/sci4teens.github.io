@@ -99,7 +99,7 @@ footer{
 }
 
 .social ul {
-  padding: 0px;
+  padding-left: 20px;
   -webkit-transform: translate(-270px, 0);
   -moz-transform: translate(-270px, 0);
   -ms-transform: translate(-270px, 0);
@@ -107,6 +107,7 @@ footer{
   transform: translate(-270px, 0);
 }
 .social ul li {
+  padding-left: 20px;
   display: block;
   margin: 10px;
   background: rgba(138,179,203,0.720792540649072));
@@ -123,6 +124,7 @@ footer{
   transition: all 1s;
 }
 .social ul li:hover {
+  padding-left: 20px;
   -webkit-transform: translate(110px, 0);
   -moz-transform: translate(110px, 0);
   -ms-transform: translate(110px, 0);
@@ -148,6 +150,7 @@ footer{
   transition: all 1s;
 }
 .social ul li i {
+  padding-left: 20px;
   margin-left: 10px;
   color: #000;
   background: #fff;
