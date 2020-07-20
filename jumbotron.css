@@ -75,7 +75,7 @@ a {
   padding-left: 50px;
 }
 
-.footer{
+footer{
   background: rgba(138,179,203,0.720792540649072);  
   position: bottom;
 }
@@ -85,7 +85,6 @@ a {
   length: 200px;
   margin-right:610px;
   margin-top: 20px;
-  padding-left: 200px;
   float: right;
 
 }
