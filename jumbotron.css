@@ -76,17 +76,18 @@ a {
 }
 footer{
   background: rgba(138,179,203,0.720792540649072);
+  position:bottom;
+  top: 20rem;
+  
 }
 .footer-image{
   width: 200px;
-  height: 200px;
-  text-align: center;
-  display: inline-block;
-  overflow: hidden;
+  length: 200px;
+  margin-right:610px;
+  float: right;
 }
 .social-media{
-  display: inline-block;
-  overflow: hidden;
+  float: left;
 }
 
 #a {
@@ -161,8 +162,6 @@ footer{
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
 }
-
-
 
 .mission {
   padding-top: 100px;
