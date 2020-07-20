@@ -78,6 +78,7 @@ a {
 footer{
   background: rgba(138,179,203,0.720792540649072);
   position:bottom;
+  padding-bottom: 30px;
   
 }
 .footer-image{
@@ -100,7 +101,7 @@ footer{
 }
 
 .social ul {
-  padding-left: 10px;
+  padding-left: 5px;
   -webkit-transform: translate(-270px, 0);
   -moz-transform: translate(-270px, 0);
   -ms-transform: translate(-270px, 0);
@@ -108,7 +109,7 @@ footer{
   transform: translate(-270px, 0);
 }
 .social ul li {
-  padding-left: 10px;
+  padding-left: 5px;
   display: block;
   margin: 10px;
   background: rgba(138,179,203,0.720792540649072));
@@ -125,7 +126,7 @@ footer{
   transition: all 1s;
 }
 .social ul li:hover {
-  padding-left: 10px;
+  padding-left: 5px;
   -webkit-transform: translate(110px, 0);
   -moz-transform: translate(110px, 0);
   -ms-transform: translate(110px, 0);
@@ -151,7 +152,7 @@ footer{
   transition: all 1s;
 }
 .social ul li i {
-  padding-left: 10px;
+  padding-left: 5px;
   margin-left: 10px;
   color: #000;
   background: #fff;
