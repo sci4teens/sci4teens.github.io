@@ -77,17 +77,19 @@ a {
 footer{
   background: rgba(138,179,203,0.720792540649072);
   position:bottom;
-  top: 20rem;
   
 }
 .footer-image{
   width: 200px;
   length: 200px;
   margin-right:610px;
+  margin-top: 20px;
   float: right;
+
 }
 .social-media{
   float: left;
+  padding-bottom: -10px;
 }
 
 #a {
