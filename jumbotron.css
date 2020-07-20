@@ -82,6 +82,7 @@ footer{
 .footer-image{
   width: 200px;
   length: 200px;
+  padding-left: 200px;
   margin-right:610px;
   margin-top: 20px;
   float: right;
