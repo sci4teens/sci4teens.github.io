@@ -74,6 +74,7 @@ a {
   padding-bottom: 50px;
   padding-left: 50px;
 }
+
 footer{
   background: rgba(138,179,203,0.720792540649072);
   position:bottom;
@@ -82,7 +83,7 @@ footer{
 .footer-image{
   width: 200px;
   length: 200px;
-  padding-left: 100px;
+  padding-left: 200px;
   margin-right:610px;
   margin-top: 20px;
   float: right;
