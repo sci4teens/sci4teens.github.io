@@ -178,10 +178,10 @@ footer {
 }
 
 .mission {
-  padding-top: 100px;
-  padding-right: 200px;
-  padding-bottom: 100px;
-  padding-left: 200px;
+  padding-top: 5%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-left: 15%;
 }
 
 /* Three columns side by side */
@@ -247,10 +247,10 @@ footer {
 .shops {
   background: rgb(245,203,192);
   background: linear-gradient(0deg, rgba(245,203,192,0.7656104678199405) 0%, rgba(138,179,203,0.720792540649072) 100%);
-  padding-top: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
+  padding-top: 5%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-left: 15%;
 }
 
 .sub1 {
@@ -274,39 +274,42 @@ footer {
 }
 
 .competition-rules{
-  padding-right: 150px;
-  padding-bottom: 50px;
-  padding-left: 150px;
+  padding-top: 5%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-left: 15%;
   text-align: left;
 }
 .eligibility{
-  padding-top: 50px;
-  padding-right: 150px;
-  padding-bottom: 50px;
-  padding-left: 150px;
+  padding-top: 5%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-left: 15%;
   text-align: left;
 }
 
 .awards{
-  padding-top: 50px;
-  padding-right: 150px;
-  padding-bottom: 50px;
-  padding-left: 150px;
+ padding-top: 5%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-left: 15%;
   text-align: left;
 }
 <<<<<<< HEAD
 
 .submit{
-  padding-top: 50px;
-  padding-right: 150px;
-  padding-bottom: 50px;
-  padding-left: 150px;
+  padding-top: 5%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-left: 15%;
   text-align: left;
 }
 
 .mentor-info{
-  padding-right: 350px;
-  padding-left: 350px;
+  padding-top: 5%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-left: 15%;
   text-align: center;
 }
 
