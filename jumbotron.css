@@ -46,6 +46,8 @@ a {
   background-color: rgb(130,198,237);
   padding-top: 200px;
   padding-bottom: 200px;
+  padding-right: 5%;
+  padding-left: 5%;
   width: 100%;
   font-size: 30px;
 }
