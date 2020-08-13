@@ -50,6 +50,11 @@ a {
   font-size: 30px;
 }
 
+@media screen and (max-width: 650px)
+ .display-3 {
+  font-size: 30px;  
+}
+
 .btn {
   border-radius: 30px;
 }
