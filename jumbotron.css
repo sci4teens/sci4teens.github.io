@@ -13,7 +13,7 @@ a {
 }
 
 .navbar-toggler, .navbar-toggler-icon {
-  color: black;
+  border-color: black;
 }
 
 .navbar-expand-md {
