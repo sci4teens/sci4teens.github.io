@@ -12,6 +12,9 @@ a {
   color: black;
 }
 
+.navbar-toggler-icon {
+  color: black;
+}
 
 .navbar-expand-md {
   background-color: rgba(138,179,203,0.720792540649072);
