@@ -40,6 +40,16 @@ a {
   width: 100%
 }
 
+@media screen and (max-width: 650px)
+.jumbotron {
+  background-image: url("images/two.png");
+  background-color: rgb(130,198,237);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 100%
+  font-size: 30px;
+}
+
 .btn {
   border-radius: 30px;
 }
