@@ -12,7 +12,7 @@ a {
   color: black;
 }
 
-.navbar-toggler-icon {
+.navbar-toggler, .navbar-toggler-icon {
   color: black;
 }
 
