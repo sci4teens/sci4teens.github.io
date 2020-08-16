@@ -115,10 +115,11 @@ footer {
   length: 200px;
   margin-right:523px;
   margin-top: 20px;
+  /*float: right*/
 
 }
 .social-media{
-  float: left;
+  /*float: left*/
   padding-bottom: -10px;
 }
 
