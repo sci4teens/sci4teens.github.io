@@ -116,8 +116,17 @@ footer {
   margin-right:523px;
   margin-top: 20px;
   float: right;
-
 }
+
+@media screen and (max-width: 650px)
+.footer-image {
+  width: 200px;
+  length: 200px;
+  margin-right:223px;
+  margin-top: 20px;
+  float: right;
+}
+
 .social-media{
   /*float: left*/
   padding-bottom: -10px;
