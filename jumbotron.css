@@ -123,8 +123,8 @@ footer {
 .footer-image {
   width: 200px;
   length: 200px;
-  /*margin-right:223px*/;
-  margin-top: 20px;
+  margin-right:20%;
+  /*margin-top: 20px;*/
   float: right;
 }
 
