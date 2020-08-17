@@ -121,9 +121,12 @@ footer {
 
 @media screen and (max-width: 650px)
 .footer-image {
-  width: 200px;
+  /*width: 200px;*/
   length: 200px;
-  margin-right:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   /*margin-top: 20px;*/
   /*float: right;*/
 }
