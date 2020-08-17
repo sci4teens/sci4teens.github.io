@@ -123,9 +123,9 @@ footer {
 .footer-image {
   width: 200px;
   length: 200px;
-  margin-right:20%;
+  margin-right:200px;
   /*margin-top: 20px;*/
-  float: right;
+  /*float: right;*/
 }
 
 .social-media{
