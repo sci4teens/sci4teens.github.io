@@ -3,7 +3,7 @@ body {
 }
 
 a {
-  color: black;
+  color: white;
   text-align: right;
 }
 
@@ -13,7 +13,7 @@ a {
 }
 
 .navbar-toggler {
-  border-color: black;
+  border-color: white;
 }
 
 .navbar-toggler-icon {
