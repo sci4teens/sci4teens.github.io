@@ -105,7 +105,8 @@ a {
 }
 
 footer {
-  background: black;  
+  background: black; 
+  color: white;
   position: bottom;
   width: 100%
 }
