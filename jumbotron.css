@@ -108,7 +108,7 @@ footer {
   background: rgb(138, 149, 156); 
   color: white;
   position: bottom;
-  width: 100%
+  /*width: 100%;*/
 }
 
 .footer-image {
@@ -119,13 +119,15 @@ footer {
   float: right;
 }
 
-@media screen and (max-width: 650px)
+@media screen and (max-width: 960px)
 .footer-image {
   /*width: 200px;*/
   /*margin-top: 20px;*/
   /*float: right*/
-  width: 0px;
-  height: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .social-media{
