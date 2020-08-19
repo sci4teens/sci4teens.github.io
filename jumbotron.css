@@ -112,28 +112,15 @@ footer {
 }
 
 .footer-image {
-  width:723px; 
-  height:250px; 
-  top: 80%; 
-  left: 30%; 
-  margin-top: -20px; 
-  margin-left: -10px; 
-  padding-top: 50px;
-  padding-right: 523px;
-}
-
-@media all and (max-width: 960px)
-.footer-image {
   width:200px; 
-  height:250px; 
-  top: 80%; 
-  left: 50%; 
-  margin-top: -20px; 
-  margin-left: -10px; 
+  height:200px; 
   padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
 }
 
-.social-media{
+.social-media {
   padding-bottom: -10px;
 }
 
