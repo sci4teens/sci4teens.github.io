@@ -3,17 +3,16 @@ body {
 }
 
 a {
-  color: white;
   text-align: center;
 }
 
 .navbar-brand {
   font-size: 20px; 
-  color: white;
+  color: black;
 }
 
 .navbar-toggler {
-  border-color: white;
+  border-color: black;
 }
 
 .navbar-toggler-icon {
