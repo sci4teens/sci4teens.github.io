@@ -30,6 +30,7 @@ a {
   z-index: 9999;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-right: 10px;
 }
 
 .jumbotron {
@@ -40,7 +41,7 @@ a {
   width: 100%
 }
 
-@media screen and (max-width: 650px)
+@media screen and (max-width: 768px)
 .jumbotron {
   background-image: url("images/two.png");
   background-color: rgb(130,198,237);
@@ -52,7 +53,7 @@ a {
   font-size: 30px;
 }
 
-@media screen and (max-width: 650px)
+@media screen and (max-width: 768px)
  .display-3 {
   font-size: 30px;  
 }
