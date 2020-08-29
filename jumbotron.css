@@ -115,25 +115,18 @@ h1.display-3, h1.display-4, h2.display-4  {
 .zoom {
   padding: 50px;
   transition: transform .2s; /* Animation */
-  width: 175px;
-  height: 200px;
-}
-
-.zoom1 {
-  padding: 50px;
-  transition: transform .2s; /* Animation */
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 400px;
 }
 
 .zoom2 {
   padding: 50px;
   transition: transform .2s; /* Animation */
-  width: 225px;
-  height: 200px;
+  width: 325px;
+  height: 400px;
 }
 
-.zoom:hover, zoom1:hover, .zoom2:hover {
+.zoom:hover, .zoom2:hover {
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
