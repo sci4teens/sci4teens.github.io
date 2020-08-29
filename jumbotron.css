@@ -52,8 +52,8 @@ h1.display-3, h1.display-4, h2.display-4  {
 .jumbotron {
   background-image: url("images/two.png");
   background-color: rgb(130,198,237);
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   width: 100%
 }
 
@@ -115,19 +115,33 @@ h1.display-3, h1.display-4, h2.display-4  {
 .zoom {
   padding: 50px;
   transition: transform .2s; /* Animation */
-  width: 300px;
-  height: 400px;
+  width: 225px;
+  height: 200px;
 }
 
 .zoom2 {
   padding: 50px;
   transition: transform .2s; /* Animation */
-  width: 325px;
-  height: 400px;
+  width: 240px;
+  height: 200px;
 }
 
-.zoom:hover, .zoom2:hover, .sub:hover {
+.graphic {
+  transition: transform .2s; /* Animation */
+  width: 170px;
+  height: 170px;
+}
+
+.zoom:hover, .zoom2:hover{
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.card {
+  transition: transform .2s; /* Animation */
+}
+
+.card:hover, .graphic:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 footer {
