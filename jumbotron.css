@@ -206,7 +206,7 @@ footer {
   margin-bottom: 16px;
   padding: 0 18px;
   color: black;
-  font-family: 'Actor'; 
+  font-family: 'Sofia Pro', sans-serif; 
 }
 
 @media screen and (max-width: 650px) {
