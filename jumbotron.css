@@ -14,10 +14,13 @@ a {
 .navbar-brand {
   font-size: 20px; 
   color: white;
+  font-family: tahoma;  
 }
 
 .navbar-toggler {
   border-color: white;
+  font-family: tahoma;  
+
 }
 
 .navbar-toggler-icon {
@@ -28,6 +31,7 @@ a {
   background-color: rgb(138, 149, 156);
   color: white;
   font-size: 20px;
+  font-family: tahoma;  
   /*position: fixed;*/
   top: 0;
   width: 100%;
@@ -87,7 +91,8 @@ h1.display-3, h1.display-4, h2.display-4  {
   padding-right: 50px;
   padding-bottom: 100px;
   padding-left: 50px;
-  width: 100%
+  width: 100%;
+  font-family: tahoma;  
 }
 
 .sub {
@@ -96,6 +101,7 @@ h1.display-3, h1.display-4, h2.display-4  {
   padding-bottom: 50px;
   padding-left: 50px;
   z-index: 1;
+  font-family: tahoma;  
 }
 
 .partners {
@@ -111,6 +117,7 @@ footer {
   color: white;
   position: bottom;
   /*width: 100%;*/
+  font-family: tahoma;  
 }
 
 .footer-image {
@@ -171,6 +178,7 @@ footer {
   padding-right: 15%;
   padding-bottom: 5%;
   padding-left: 15%;
+  font-family: tahoma;  
 }
 
 /* Three columns side by side */
@@ -181,6 +189,7 @@ footer {
   padding-right: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
+  font-family: tahoma;  
 }
 
 .carousel-control-prev-icon {
@@ -197,12 +206,14 @@ footer {
   margin-bottom: 16px;
   padding: 0 18px;
   color: black;
+  font-family: tahoma;  
 }
 
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
     display: block;
+    font-family: tahoma;  
   }
 }
 
@@ -228,11 +239,13 @@ footer {
   background: rgb(245,203,192);
   background: linear-gradient(0deg, rgba(138,179,203,0.720792540649072) 0%, rgba(245,203,192,0.7656104678199405) 100%);
   font-size: 20px;
+  font-family: tahoma;  
 }
 
 .ask {
   font-size: 20px;
   font-weight: bold;
+  font-family: tahoma;  
 }
 
 .first {
@@ -240,6 +253,7 @@ footer {
   padding-right: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
+  font-family: tahoma;  
 }
 
 .shops {
@@ -249,6 +263,7 @@ footer {
   padding-right: 15%;
   padding-bottom: 5%;
   padding-left: 15%;
+  font-family: tahoma;  
 }
 
 .sub1 {
@@ -256,6 +271,7 @@ footer {
   padding-right: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
+  font-family: tahoma;  
 }
 
 .submit {
@@ -263,12 +279,14 @@ footer {
   padding-right: 15%;
   padding-bottom: 5%;
   padding-left: 15%;
+  font-family: tahoma;  
 }
 
 .contest{
   background: rgb(245,203,192);
   background: linear-gradient(0deg, rgba(245,203,192,0.7656104678199405) 0%, rgba(138,179,203,0.720792540649072) 100%);  
   padding-top: 80px;
+  font-family: tahoma;  
 }
 
 .competition-rules{
@@ -277,13 +295,16 @@ footer {
   padding-bottom: 5%;
   padding-left: 15%;
   text-align: left;
+  font-family: tahoma;  
 }
+
 .eligibility{
   padding-top: 5%;
   padding-right: 15%;
   padding-bottom: 5%;
   padding-left: 15%;
   text-align: left;
+  font-family: tahoma;  
 }
 
 .awards{
@@ -292,6 +313,7 @@ footer {
   padding-bottom: 5%;
   padding-left: 15%;
   text-align: left;
+  font-family: tahoma;  
 }
 <<<<<<< HEAD
 
@@ -301,6 +323,7 @@ footer {
   padding-bottom: 5%;
   padding-left: 15%;
   text-align: left;
+  font-family: tahoma;  
 }
 
 .mentor-info{
@@ -309,6 +332,7 @@ footer {
   padding-bottom: 5%;
   padding-left: 15%;
   text-align: center;
+  font-family: tahoma;  
 }
 
 /* Three columns side by side */
@@ -319,6 +343,7 @@ footer {
   padding-right: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
+  font-family: tahoma;  
 }
 =======
 >>>>>>> 89c55810cde445ba8b92d69b932f9c4a729c6b8f
