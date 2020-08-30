@@ -137,6 +137,7 @@ h1.display-3, h1.display-4, h2.display-4  {
 }
 
 .card {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   transition: transform .2s; /* Animation */
 }
 
