@@ -113,14 +113,14 @@ h1.display-3, h1.display-4, h2.display-4  {
 }
 
 .zoom {
-  padding: 50px;
+  padding: 30px;
   transition: transform .2s; /* Animation */
   width: 225px;
   height: 200px;
 }
 
 .zoom2 {
-  padding: 50px;
+  padding: 30px;
   transition: transform .2s; /* Animation */
   width: 240px;
   height: 200px;
