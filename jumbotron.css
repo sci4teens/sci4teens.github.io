@@ -104,6 +104,16 @@ h1.display-3, h1.display-4, h2.display-4  {
   font-family: 'Sofia Pro', sans-serif;
 }
 
+.impact {
+  background-image: url("images/one.png");
+  background-color: rgb(130,198,237);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  padding-left: 50px
+  width: 100%
+}
+
 .partners {
   padding-top: 50px;
   padding-right: 50px;
