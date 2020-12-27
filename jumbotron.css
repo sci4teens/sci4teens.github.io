@@ -276,7 +276,7 @@ footer {
   color: white;
 }
 
-.questions {
+.questions, .winners {
   padding-right: 50px;
   padding-left: 50px;
   background: rgb(245,203,192);
