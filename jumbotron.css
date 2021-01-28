@@ -158,8 +158,8 @@ h1.display-3, h1.display-4, h2.display-4  {
 }
 
 footer {
-  background: rgb(138, 149, 156); 
-  color: white;
+  background: #8cb4cc; 
+  color: #8cb4cc;
   position: bottom;
   /*width: 100%;*/
   font-family: 'Sofia Pro', sans-serif;
