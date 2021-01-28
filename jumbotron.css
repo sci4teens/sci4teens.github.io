@@ -3,11 +3,13 @@ html {
 }
 body {
   text-align: center;
+  font-family: 'Sofia Pro', sans-serif;
 }
 
 a {
   color: white;
   text-align: center;
+  font-family: 'Sofia Pro', sans-serif;
 }
 
 .navbar-brand {
