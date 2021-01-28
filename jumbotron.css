@@ -109,10 +109,11 @@ h1.display-3, h1.display-4, h2.display-4  {
 .impact {
   background-image: url("images/one.png");
   background-color: rgb(130,198,237);
+  text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-right: 50px;
-  padding-left: 60px
+  padding-left: 60px;
   width: 100%
 }
 
