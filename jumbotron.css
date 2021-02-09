@@ -279,7 +279,7 @@ footer {
   color: white;
 }
 
-.questions, .winners {
+.questions {
   padding-right: 50px;
   padding-left: 50px;
   background: rgb(245,203,192);
@@ -363,7 +363,7 @@ footer {
 }
 <<<<<<< HEAD
 
-.submit{
+.submit, .winners {
   padding-top: 5%;
   padding-right: 15%;
   padding-bottom: 5%;
