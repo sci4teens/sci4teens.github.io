@@ -395,7 +395,7 @@ footer {
 /* In the Media */
 
 
-body.mediaclass {
+.mediaclass {
   height: 500px;
   margin: 0;
   display: grid;
