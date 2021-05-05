@@ -277,14 +277,14 @@ footer {
 .twocolumnv2 {
   float: left;
   width: 25.0%;
-  margin-bottom: 16px;
-  padding: 0 18px;
+  margin-bottom: 20px;
+  padding: 0 10px;
   color: black;
   font-family: 'Sofia Pro', sans-serif; 
 }
 
 @media screen and (max-width: 650px) {
-  .column, .twocolumn {
+  .column, .twocolumn, twocolumnv2 {
     width: 100%;
     display: block;
   font-family: 'Sofia Pro', sans-serif;
