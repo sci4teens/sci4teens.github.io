@@ -340,6 +340,7 @@ footer {
 }
 
 .submit {
+  text-align: center;
   padding-top: 5%;
   padding-right: 15%;
   padding-bottom: 5%;
@@ -381,7 +382,8 @@ footer {
   font-family: 'Sofia Pro', sans-serif;
 }
 
-.submit, .winners {
+.winners {
+  text-align: center;
   padding-top: 5%;
   padding-right: 15%;
   padding-bottom: 5%;
