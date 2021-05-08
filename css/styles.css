@@ -10741,3 +10741,7 @@ footer {
 #lab_social_icon_footer #social-em:hover {
   color: #f39c12;
 }
+
+#lab_social_icon_footer #social-me:hover {
+  color: #32a852;
+}
