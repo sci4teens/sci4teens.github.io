@@ -152,7 +152,7 @@ h1.display-3, h1.display-4, h2.display-4  {
 .zoom3 {
   padding: 30px;
   transition: transform .2s; /* Animation */
-  width: 300px;
+  width: 285px;
   height: 200px;
 }
 
